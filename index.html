@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fluently</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar-logo">
+          <a href="#">Fluently</a>
+        </div>
+        <ul class="navbar-menu">
+          <li class="navbar-item"><a href="#welcome">Home</a></li>
+          <li class="navbar-item dropdown">
+            <a href="#language-learning" class="dropdown-btn">Languages</a>
+            <div class="dropdown-content">
+              <a href="#">English</a>
+              <a href="#">Spanish</a>
+              <a href="#">French</a>
+              <a href="#">German</a>
+            </div>
+          </li>
+          <li class="navbar-item"><a href="#pricing">Pricing</a></li>
+          <li class="navbar-item"><a href="#about-us">About</a></li>
+          <li class="navbar-item"><a href="#contact-us">Contact</a></li>
+        </ul>
+        <div class="navbar-search">
+          <form>
+            <input type="text" placeholder="Search" id="search-input" />
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="welcome">
+        <div class="container">
+          <h1>Welcome to Fluently</h1>
+          <p>
+            Learn a new language and expand your horizons with Fluently! Our
+            interactive language learning platform offers courses in a variety
+            of languages, from beginner to advanced levels. Whether you want to
+            learn a language for travel, work, or personal enrichment, Fluently
+            has you covered.
+          </p>
+          <a href="#" class="btn">Get Started</a>
+        </div>
+      </section>
+
+      <section id="features">
+        <div class="container">
+          <h2>Our Features</h2>
+          <div class="features-wrapper">
+            <div class="features-container">
+              <div class="feature">
+                <i class="fa fa-user"></i>
+                <h3>Personalized Learning</h3>
+                <p>
+                  Our platform adapts to your learning style, level, and pace,
+                  providing a personalized experience that maximizes learning
+                  outcomes.
+                </p>
+              </div>
+              <div class="feature">
+                <i class="fa fa-language"></i>
+                <h3>Wide Range of Languages</h3>
+                <p>
+                  Choose from a variety of languages, including Spanish, French,
+                  Mandarin, and more. Our courses cater to all levels, from
+                  beginner to advanced.
+                </p>
+              </div>
+              <div class="feature">
+                <i class="fa fa-certificate"></i>
+                <h3>Certification</h3>
+                <p>
+                  Earn a certificate upon completion of a course. Our
+                  certificates are recognized by employers and academic
+                  institutions worldwide.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="language-learning">
+        <div class="container">
+          <h2>Learn a New Language Today!</h2>
+          <p>
+            At our language learning platform, we offer a wide range of courses
+            in different languages, suitable for both beginners and advanced
+            learners. Our expert teachers will guide you through the learning
+            process, providing interactive materials and exercises that will
+            help you achieve your language learning goals.
+          </p>
+          <div class="language-cards">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1567526977394-a5816c70679e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80"
+                alt="Japanese Language Cource"
+              />
+              <h3>Japanese Course</h3>
+              <p>
+                Learn Japanese with our comprehensive course that covers all
+                aspects of the language, including speaking, writing, reading
+                and listening.
+              </p>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1555061012-7769779942ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                alt="Chinese Language Course"
+              />
+              <h3>Chinese Course</h3>
+              <p>
+                Learn Mandarin Chinese with our fun and interactive course,
+                designed to help you master the language quickly and
+                effectively.
+              </p>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1529686398651-b8112f4bb98c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=770&q=80
+                    "
+                alt="Spanish Language Course
+                    "
+              />
+              <h3>Spanish Course</h3>
+              <p>
+                Improve your Spanish skills with our engaging course, featuring
+                authentic materials and activities that will take your language
+                abilities to the next level.
+              </p>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing">
+        <div class="container">
+          <h2>Our Pricing Plans</h2>
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>Basic</th>
+                <th>Pro</th>
+                <th>Premium</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Price</td>
+                <td>$9.99/month</td>
+                <td>$19.99/month</td>
+                <td>$29.99/month</td>
+              </tr>
+              <tr>
+                <td>Number of courses</td>
+                <td>1</td>
+                <td>3</td>
+                <td>Unlimited</td>
+              </tr>
+              <tr>
+                <td>Access to expert teachers</td>
+                <td><i class="fas fa-times"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+              </tr>
+              <tr>
+                <td>Interactive materials</td>
+                <td><i class="fas fa-times"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+              </tr>
+              <tr>
+                <td>Self-paced learning</td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+              </tr>
+            </tbody>
+          </table>
+          <a href="#" class="btn">Sign Up Now</a>
+        </div>
+      </section>
+
+      <section id="about-us">
+        <div class="container">
+          <h2>About Our Platform</h2>
+          <div class="row">
+            <div class="col-6">
+              <p>
+                At our language learning platform, we are committed to providing
+                the best learning experience for our students. Our courses are
+                designed to meet the needs of learners at all levels, from
+                beginners to advanced speakers.
+              </p>
+              <p>
+                We offer a wide range of courses in different languages,
+                including Japanese, Mandarin Chinese, Spanish, French, German,
+                Italian, and more. Our expert teachers provide interactive
+                materials and exercises to help you achieve your language
+                learning goals.
+              </p>
+            </div>
+            <div class="col-6">
+              <img
+                src="https://images.unsplash.com/photo-1563477709790-27c59ddaa002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                alt="Language Learning"
+              />
+            </div>
+          </div>
+          <h3>Why Learn with Us?</h3>
+          <div class="row">
+            <div class="col-4">
+              <img
+                src="https://images.unsplash.com/photo-1573165759995-5865a394a1aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80"
+                alt="Expert Teachers"
+              />
+              <h4>Expert Teachers</h4>
+              <p>
+                Our teachers are experts in their respective languages and have
+                extensive experience in teaching learners from all over the
+                world. They are dedicated to helping you improve your language
+                skills and achieve your learning goals.
+              </p>
+            </div>
+            <div class="col-4">
+              <img
+                src="https://images.unsplash.com/photo-1531545514256-b1400bc00f31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
+                alt="Interactive Materials"
+              />
+              <h4>Interactive Materials</h4>
+              <p>
+                Our courses feature interactive materials and exercises that
+                make learning a new language fun and engaging. You will have
+                access to videos, audio files, quizzes, and more, all designed
+                to help you practice your language skills in an immersive
+                environment.
+              </p>
+            </div>
+            <div class="col-4">
+              <img
+                src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80"
+                alt="Flexible Learning"
+              />
+              <h4>Flexible Learning</h4>
+              <p>
+                We understand that everyone has different schedules and learning
+                styles, which is why we offer flexible learning options. You can
+                learn at your own pace and on your own schedule, from anywhere
+                in the world.
+              </p>
+            </div>
+          </div>
+          <h3>Our Future</h3>
+          <p>
+            We are committed to continuing to improve our platform and provide
+            the best language learning experience for our students. In the
+            future, we plan to expand our course offerings to include even more
+            languages and to develop new tools and features to enhance the
+            learning experience.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact-us">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>Contact Us</h2>
+              <p>
+                If you have any questions or inquiries, please feel free to
+                contact us using the form below or the information provided.
+              </p>
+              <form action="#" method="POST">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                  Send Message
+                </button>
+              </form>
+            </div>
+            <div class="col-md-6">
+              <h2>Our Location</h2>
+              <p>We are located at:</p>
+              <address>
+                123 Main St<br />
+                Suite 200<br />
+                Anytown, USA 12345
+              </address>
+              <p>Phone: (123) 456-7890</p>
+              <p>Email: info@languagelearning.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>About Us</h4>
+              <p>
+                We are a language learning platform that provides interactive
+                materials and expert teachers to help learners of all levels
+                achieve their language goals.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="#welcome">Home</a></li>
+                <li><a href="#language-learning">Courses</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h4>Contact Us</h4>
+              <p>
+                123 Main St, Suite 200<br />
+                Anytown, USA 12345<br />
+                Phone: (123) 456-7890<br />
+                Email: info@languagelearning.com
+              </p>
+            </div>
+          </div>
+          <hr />
+          <p class="text-center">
+            &copy; 2023 Language Learning Platform. All rights reserved.
+          </p>
+        </div>
+      </footer>
+      <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+      <script>
+        // Get all the links in the navbar
+        const links = document.querySelectorAll("nav a");
+
+        // Loop through the links and add a click event listener to each one
+        links.forEach((link) => {
+          link.addEventListener("click", (e) => {
+            // Prevent the default behavior of the link
+            e.preventDefault();
+            // Get the ID of the section to scroll to
+            const sectionId = link.getAttribute("href");
+            // Scroll to the section using the scrollIntoView() method
+            document
+              .querySelector(sectionId)
+              .scrollIntoView({ behavior: "smooth" });
+          });
+        });
+
+        // Back to top button
+        var backToTopButton = document.querySelector(".back-to-top");
+
+        window.addEventListener("scroll", function () {
+          if (window.pageYOffset > 100) {
+            backToTopButton.classList.add("active");
+          } else {
+            backToTopButton.classList.remove("active");
+          }
+        });
+
+        backToTopButton.addEventListener("click", function () {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+      </script>
+    </main>
+  </body>
+</html>
